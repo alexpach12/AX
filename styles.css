@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* modificar el tamaño de fondo*/
+body{
+    background: none;
+    color: black;
+    font-size: 16px;
+    font-family: Helvetica;
+}
+
+.nav-menu i{
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu{
+    display: none;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.nav-menu-right a{
+    color: white;
+}
+
+ul{
+    /*estilos por defecto*/
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    /*max-width: 1000px*/;
+}
+
+/*navigation style*/
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 5px 0;
+    background: #232f3e;
+    margin-bottom: 20px;
+}
+
+/*modificar el tamaño de logo*/
+.nav-brand{
+    width: 350px;
+}
+
+/* nav left*/
+.nav-main ul{
+    display: flex;
+}
+
+.nav-main ul li{
+    padding: 20px;
+}
+
+/*showcase*/
+.showcase {
+    color: black;
+    font-size: 35px;
+    padding: 10% 0;
+    height: 550px;
+    width: 90%;
+    margin-left: 10%;
+    }
+
+.showcase h1{
+    display: flex;
+}
+
+.showcase p{
+    font-size: 40px;
+}
+
+.showcase a{
+    margin-top: 60px;
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #03b2cb;
+    color: black;
+    font-size: 15px;
+    border: 1px solid black;
+    margin: 10px 0;
+}
+
+/*opasidad al poner el mouse en el boton*/
+.btn:hover{
+    opacity: .9;
+}
+
+.nav-menu-right{
+    color: black;
+    border: 1px solid #03b2cb;
+    padding: -10px -10px;
+    border-radius: 5px;
+    font-size: 14px;
+    background: #03b2cb;
+}
+
+.nav-menu-right:hover{
+    opacity: .9;
+}
+
+/*style news-cards (css grid)*/
+
+.news-card{
+    background: none;
+    grid-template-columns: repeat(4, 1fr);
+    /*grid-template-rows: minmax(100px, auto);*/
+    display: grid;
+    gap: 50px;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 60px;
+    background: #fff;
+    /*padding: 100px;*/
+    margin: -4%;
+}
+
+.container2 .news-card div{
+    border: 1px solid black;
+    /*display: flex;*/
+    /*align-items: flex-start;*/
+    /*text-align: center;*/
+    /*background: #e4ecf685;*/
+    padding: 10px;
+}
+
+
+.container2 .news-card i{
+    margin-right: 20px;
+    position: center;
+    bottom: 0px;
+    color: #03b2cb;
+    padding: 5px;
+}
+
+/*el encabezado centrar (falta)*/
+.encabezado-segunda-parte{
+    text-align: center;
+    font-family: Arial;
+    font-size: 36px;
+    background: #fff;
+    width: 90%;
+}
+
+/*pendientes mover la barra de menu a hoja completa*/
+/*cambiar los espacios por dentro de la hoja 2 del index y acomodar los iconos*/
+/*cambiar los fondos de pantalla*/
+/*cambiar el boton de contacto segunda parte*/
+
+.container2{
+    width: 90%;
+    margin: auto;
+    max-width: 1000px;
+    background: #fff;
+}

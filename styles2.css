@@ -1,0 +1,38 @@
+/*style news-cards (css grid)*/
+
+.news-card{
+    background: none;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    padding: 50%;
+}
+
+.container .news-card div{
+    border: 1px solid black;
+    /*display: flex*/
+    align-items: flex-start;
+    /*text-align: center;*/
+    background: #E4ECF6;
+}
+
+
+.container .news-card i{
+    margin-right: 20px;
+    position: center;
+    bottom: 0px;
+}
+
+/*el encabezado centrar (falta)*/
+.encabezado-segunda-parte{
+    text-align: center;
+}
+
+/*contenedor*/
+
+.container{
+    width: 90%;
+    margin: auto;
+    max-width: 1000px;
+    }
